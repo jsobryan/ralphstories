@@ -870,7 +870,7 @@ def bandname(textsource):
 
 def headlines():
     headline_list = []
-    news = requests.get('https://newsapi.org/v2/top-headlines?country=us&apiKey=7a6186cc34e6424a82421c2f1d80ef78')
+    news = requests.get('https://newsapi.org/v2/top-headlines?country=us&apiKey=FUCKYOUDIARRHEAFARTS')
     content = news.json()
     articles = content['articles']
     for article in articles:
